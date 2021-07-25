@@ -1,0 +1,19 @@
+{
+    "name": "khalid/social-media-footer-link",
+    "description": "Show author's facebook and linkedin url below his post",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": [
+      {
+        "name": "Khalidwebmail",
+        "email": "csewebmail@gmail.com"
+      }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+      "psr-4": {
+        "Social\\Link\\": "includes/"
+      }
+    }
+  }
